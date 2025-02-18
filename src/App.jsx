@@ -1,11 +1,9 @@
-import React from 'react';
-import './App.css';
-import GlobalStyles from './GlobalStyles';
 import Background from './components/Background';
+import GlobalStyles from './components/GlobalStyles';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Background />
       <GlobalStyles />
     </div>
