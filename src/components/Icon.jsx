@@ -1,11 +1,14 @@
-import React from "react";
 import styled from "styled-components";
-import Arrow from "../assets/Arrow.svg?react";
+import LeftArrow from "../assets/LeftArrow.svg?react";
+import Oval from "../assets/Oval.svg?react";
+import RightArrow from "../assets/RightArrow.svg?react";
 import ThreeDots from "../assets/ThreeDots.svg?react";
 
 const icons = {
-  arrow: Arrow,
+  left_arrow: LeftArrow,
+  right_arrow: RightArrow,
   three_dots: ThreeDots,
+  oval: Oval
 };
 
 const Icon = ({ name, size, strokeWidth = 1, ...delegated }) => {

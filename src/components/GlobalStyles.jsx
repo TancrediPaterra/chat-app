@@ -1,7 +1,15 @@
 import { createGlobalStyle } from 'styled-components';
 
+
 const GlobalStyles = createGlobalStyle`
+
+
 /* 1. Use a more-intuitive box-sizing model */
+body{
+  font-family:Rubik, sans-serif;
+  font-size: 16px;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
